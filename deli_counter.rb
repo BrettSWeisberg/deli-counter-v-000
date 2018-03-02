@@ -8,7 +8,7 @@ if katz_deli.count > 1
       string = "The line is currently: #{counter}. people "
       puts "The line is currently: #{counter}. people "
     counter += 1
-    string.join(#{counter}. people)
+    string.join(#{counter}. people}
   else
     puts "The line is currently empty."
     end
