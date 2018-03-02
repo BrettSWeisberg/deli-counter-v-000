@@ -4,7 +4,7 @@ katz_deli = []
 def line(katz_deli)
     counter = 1
     katz_deli.each do |people|
-    puts "The line is currently: #{counter} people"
+    puts "The line is currently: #{counter}. #{people}"
 end
 end
 #if katz_deli.count == 0
