@@ -9,6 +9,7 @@ if katz_deli.count >= 1
     string << "#{counter}. #{people}"
     counter += 1
   end
+  puts string
   else
     puts "The line is currently empty."
     end
