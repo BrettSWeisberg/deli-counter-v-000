@@ -8,9 +8,13 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,name)
-  katz_deli.push(name)
+  if katz_deli.count >= 1
+    katz_deli.push(name)
   number = katz_deli.count
-  puts "Welcome, Matz. You are number #{number} in line."
+  puts "Welcome, #{name}. You are number #{number} in line."
+else
+  katz_deli << name
+
 end
 
 def now_serving
