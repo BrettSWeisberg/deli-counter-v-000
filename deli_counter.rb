@@ -8,8 +8,9 @@ def line(katz_deli)
     line.each do |people|
     puts "The line is currently:"
   end
-end
   puts katz_deli
+end
+
 end
 
 
