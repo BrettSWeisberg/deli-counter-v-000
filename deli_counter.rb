@@ -15,10 +15,10 @@ def take_a_number(katz_deli,name)
 else
   katz_deli << name
   puts "Welcome, #{name}."
+  end
 end
 
 def now_serving
   puts ""
   katz_deli.shift
-
 end
