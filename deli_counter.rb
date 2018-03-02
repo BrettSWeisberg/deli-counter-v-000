@@ -2,12 +2,13 @@
 katz_deli = []
 
 def line(katz_deli)
-if katz_deli.count > 1
+if katz_deli.count >= 1
     string = "The line is currently: "
     counter = 1
     katz_deli.each do |people|
     string << "#{counter}. #{people}"
     counter += 1
+  end
   else
     puts "The line is currently empty."
     end
