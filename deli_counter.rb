@@ -9,7 +9,7 @@ end
 
 def take_a_number(katz_deli,name)
   katz_deli.push(name)
-  number = katz_deli.count
+  number = katz_deli.count - 1
   puts "Welcome, Matz. You are number #{number} in line."
 end
 
