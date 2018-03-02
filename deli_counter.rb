@@ -3,7 +3,7 @@ katz_deli = []
 
 def line(katz_deli)
     counter = 1
-    line.each do |people|
+    katz_deli.each do |people|
     puts "The line is currently: #{counter} people"
 end
 end
