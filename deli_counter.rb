@@ -8,7 +8,7 @@ def line(katz_deli)
     line.each do |people|
     puts "The line is currently:"
   end
-endx
+end
 end
 
 def take_a_number(katz_deli,name)
