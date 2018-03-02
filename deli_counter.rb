@@ -9,9 +9,7 @@ def line(katz_deli)
     line.each do |people|
     puts "The line is currently: #{counter} people"
   end
-
 end
-
 end
 
 
