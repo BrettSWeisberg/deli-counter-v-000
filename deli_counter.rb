@@ -6,7 +6,7 @@ if katz_deli.count >= 1
     string = "The line is currently: "
     counter = 1
     katz_deli.each do |people|
-    string << "#{counter}. #{people}"
+    string << "#{counter}. #{people} "
     counter += 1
   end
   puts string
