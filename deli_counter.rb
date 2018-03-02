@@ -5,7 +5,7 @@ def line(katz_deli)
     counter = 1
     katz_deli.each do |people|
     mystring.push(counter,people)
-    mystring "The line is currently: "
+    mystring = "The line is currently: "
     counter += 1
 
 end
