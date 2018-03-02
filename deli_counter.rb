@@ -9,11 +9,12 @@ end
 
 def take_a_number(katz_deli,name)
   katz_deli.push(name)
+  current number = katz_deli.count
+  puts "Welcome, Matz. You are number #{current number} in line."
 end
 
 def now_serving
   puts ""
-  
-  
+
+
 end
-  
