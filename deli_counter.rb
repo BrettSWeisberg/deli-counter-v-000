@@ -4,14 +4,15 @@ katz_deli = []
 def line(katz_deli)
 if katz_deli.count > 1
     counter = 1
+    string = "The line is currently: #{counter}. people "
     katz_deli.each do |people|
-      string = "The line is currently: #{counter}. people "
+      
       puts "The line is currently: #{counter}. people "
     counter += 1
     string.join(#{counter}. people}
+  end
   else
     puts "The line is currently empty."
-    end
   end
 end
 
